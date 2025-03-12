@@ -1,0 +1,3 @@
+The python file in this folder is NOT DONE. It is supposed to execute instructions
+'r', 'l', or 'f' to go right, left, or forward for a certain number of seconds.
+Only the init function is complete.

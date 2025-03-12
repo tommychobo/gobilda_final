@@ -1,0 +1,25 @@
+Lidar Node:
+  out - /scan
+
+Lidar Odom:
+  in - /scan
+  out - /lidar_odom
+
+Mapper:
+  in - /lidar_odom
+  out - /map
+
+Camera:
+  out - /image
+
+Instructions:
+  in - /image
+  out - /instruction
+
+Navigator:
+  in - /map /instruction
+  out - /cmd_vel
+
+Gobilda Node:
+  in - /cmd_vel
+
